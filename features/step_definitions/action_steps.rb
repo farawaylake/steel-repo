@@ -22,6 +22,10 @@ end
 When(/^I add the "([^"]*)" card to the "([^"]*)" list$/) do |card_name, list_name|
   list_component = ListComponent.new
   list_component.add_card_to_list card_name, list_name
+
+  board_page = BoardPage.new
+  board_page.click_empty_board_area
+
 end
 
 When(/^I update the "([^"]*)" card due date to "([^"]*)" days from today$/) do |card_name, days_until_due|
@@ -30,5 +34,11 @@ When(/^I update the "([^"]*)" card due date to "([^"]*)" days from today$/) do |
   list_component.navigate_to_card_due_date card_name
   list_component.edit_card_due_date days_until_due
   list_component.save_card_quick_edit
+end
+
+When(/^I archive all cards in the "([^"]*)" list$/) do |list_name|
+  list_component = ListComponent.new
+  list_component.select_list_overflow list_name
+  list_component.select_archive_all_cards
 end
 

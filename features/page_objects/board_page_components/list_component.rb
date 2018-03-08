@@ -3,15 +3,19 @@ require 'rspec'
 
 class ListComponent
 
-  ADD_CARD_TO_LIST_TEMPLATE = "//*[text()='<LIST_NAME>' and contains(@class,'list-header-name-assist')]//ancestor::*[contains(@class,'js-list-content')]//*[text()='Add a card…']"
   ADD_CARD_FIELD = "//*[@class='card-composer']//textarea"
   ADD_CARD_BUTTON = "//input[@value='Add']"
-  EDIT_CARD_BUTTON_TEMPLATE = "//span[text()='<CARD_NAME>']//ancestor::a[contains(@href,'<CARD_NAME>')]//span[contains(@class,'icon-edit')]"
   CHANGE_DUE_DATE_BUTTON = "//*[text()='Change Due Date']"
   DUE_DATE_FIELD = "//*[contains(text(),'Date')]//*[contains(@class,'datepicker-select-input')]"
   DUE_DATE_SAVE_BUTTON = "//*[@class='datepicker-confirm-btns']//input[@value='Save']"
   QUICK_EDIT_SAVE = "//*[@class='quick-card-editor-card']//*[@value='Save']"
   SELECTED_CALENDAR_DUE_DATE = "//*[contains(@class,'js-dpicker-cal')]//*[contains(@class,'is-selected')]//button"
+  ARCHIVE_ALL_CARDS_IN_LIST = "//*[text()='Archive All Cards in This List…']"
+  ARCHIVE_ALL_CARDS_CONFIRMATION = "//*[@value='Archive All']"
+
+  ADD_CARD_TO_LIST_TEMPLATE = "//*[text()='<LIST_NAME>' and contains(@class,'list-header-name-assist')]//ancestor::*[contains(@class,'js-list-content')]//*[text()='Add a card…']"
+  EDIT_CARD_BUTTON_TEMPLATE = "//span[text()='<CARD_NAME>']//ancestor::a[contains(@href,'<CARD_NAME>')]//span[contains(@class,'icon-edit')]"
+  LIST_OVERFLOW_MENU_TEMPLATE = "//*[text()='<LIST_NAME>']//ancestor::*[contains(@class,'js-list-header')]//*[contains(@class,'icon-overflow-menu-horizontal')]"
 
   def add_card_to_list (card_name, list_name)
     add_card_to_list_button = ADD_CARD_TO_LIST_TEMPLATE.gsub '<LIST_NAME>', list_name
@@ -25,6 +29,16 @@ class ListComponent
     edit_card_button_xpath = EDIT_CARD_BUTTON_TEMPLATE.gsub "<CARD_NAME>", card_name
     Capybara.find(:xpath,edit_card_button_xpath).click
     Capybara.find(:xpath,CHANGE_DUE_DATE_BUTTON).click
+  end
+
+  def select_list_overflow (list_name)
+    list_overview_menu_button = LIST_OVERFLOW_MENU_TEMPLATE.gsub "<LIST_NAME>", list_name
+    Capybara.find(:xpath,list_overview_menu_button).click
+  end
+
+  def select_archive_all_cards
+    Capybara.find(:xpath,ARCHIVE_ALL_CARDS_IN_LIST).click
+    Capybara.find(:xpath,ARCHIVE_ALL_CARDS_CONFIRMATION).click
   end
 
 
