@@ -14,7 +14,7 @@ class SignInPage
     Capybara.find(:xpath,LOGIN_BUTTON).click
   end
 
-  def sign_in_custom_credentials username, password
+  def sign_in_custom_credentials (username, password)
     Capybara.find(:xpath,USERNAME_FIELD).set(username)
     Capybara.find(:xpath,PASSWORD_FIELD).set(password)
     Capybara.find(:xpath,LOGIN_BUTTON).click
