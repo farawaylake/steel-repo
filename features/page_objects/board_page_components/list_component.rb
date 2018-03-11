@@ -16,6 +16,7 @@ class ListComponent
   ADD_CARD_TO_LIST_TEMPLATE = "//*[text()='<LIST_NAME>' and contains(@class,'list-header-name-assist')]//ancestor::*[contains(@class,'js-list-content')]//*[text()='Add a card…']"
   EDIT_CARD_BUTTON_TEMPLATE = "//span[text()='<CARD_NAME>']//ancestor::a[contains(@href,'<CARD_NAME>')]//span[contains(@class,'icon-edit')]"
   LIST_OVERFLOW_MENU_TEMPLATE = "//*[text()='<LIST_NAME>']//ancestor::*[contains(@class,'js-list-header')]//*[contains(@class,'icon-overflow-menu-horizontal')]"
+  ANY_CARD_ON_LIST_TEMPLATE = "//*[text()='<LIST_NAME>' and contains(@class,'list-header-name-assist')]//ancestor::*[contains(@class,'js-list-content')]//*[contains(@class,'list-card-title')]"
 
   def add_card_to_list (card_name, list_name)
     add_card_to_list_button = ADD_CARD_TO_LIST_TEMPLATE.gsub '<LIST_NAME>', list_name
@@ -65,6 +66,10 @@ class ListComponent
     date = date + days_until_due
 
     ((year == (date.strftime('%Y'))) && month ==(date.strftime('%m').to_i.to_s) && day == (date.strftime('%d').to_i.to_s))
+  end
+
+  def find_any_card_in_list (list_name)
+    return ANY_CARD_ON_LIST_TEMPLATE.gsub "<LIST_NAME>", list_name
   end
 
 end

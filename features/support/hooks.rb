@@ -1,4 +1,5 @@
 After do | scenario |
+  #don't have anything to put here now, but could contain things such as cookie cleanup or screenshot saving
 end
 
 Before do
