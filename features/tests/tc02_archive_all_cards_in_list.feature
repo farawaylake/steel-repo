@@ -1,6 +1,6 @@
-Feature: Test
+Feature: tc02_archive_all_cards_in_list
 
-  Scenario Outline: Test
+  Scenario Outline: tc02_archive_all_cards_in_list
 
     When I sign in to the trello home page
     And I navigate to the "<board_name>" board

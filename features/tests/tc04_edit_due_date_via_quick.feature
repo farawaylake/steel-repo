@@ -1,6 +1,6 @@
-Feature: Test
+Feature: tc04_edit_due_date_via_quick
 
-  Scenario Outline: Test
+  Scenario Outline: tc04_edit_due_date_via_quick
 
     When I sign in to the trello home page
     And I navigate to the "<board_name>" board

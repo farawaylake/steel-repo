@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21fb62fd-da3b-4fab-9edb-ec9a1346cdc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/page_objects/board_page_components/list_component.rb" afterPath="$PROJECT_DIR$/features/page_objects/board_page_components/list_component.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/verification_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/verification_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/tests/T02_archive_all_cards_in_list.feature" afterPath="$PROJECT_DIR$/features/tests/T02_archive_all_cards_in_list.feature" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/tests/tc02_archive_all_cards_in_list.feature" afterPath="$PROJECT_DIR$/features/tests/tc02_archive_all_cards_in_list.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/tests/tc04_edit_due_date_via_quick.feature" afterPath="$PROJECT_DIR$/features/tests/tc04_edit_due_date_via_quick.feature" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="verification_steps.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="verification_steps.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/verification_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -79,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T04_edit_due_date_via_quick.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/tests/T04_edit_due_date_via_quick.feature">
+      <file leaf-file-name="tc04_edit_due_date_via_quick.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/tests/tc04_edit_due_date_via_quick.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="36">
+              <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T02_archive_all_cards_in_list.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/tests/T02_archive_all_cards_in_list.feature">
+      <file leaf-file-name="tc02_archive_all_cards_in_list.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/tests/tc02_archive_all_cards_in_list.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="36">
+              <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -160,6 +160,8 @@
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/page_objects/board_page_components/list_component.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/verification_steps.rb" />
+        <option value="$PROJECT_DIR$/features/tests/tc02_archive_all_cards_in_list.feature" />
+        <option value="$PROJECT_DIR$/features/tests/tc04_edit_due_date_via_quick.feature" />
       </list>
     </option>
   </component>
@@ -492,12 +494,12 @@
       <updated>1520413912154</updated>
       <workItem from="1520413913975" duration="18822000" />
       <workItem from="1520500886448" duration="17545000" />
-      <workItem from="1520793371509" duration="951000" />
+      <workItem from="1520793371509" duration="1323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37318000" />
+    <option name="totallyTimeSpent" value="37690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="1309" height="747" extended-state="6" />
@@ -581,7 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/tests/T04_edit_due_date_via_quick.feature">
+    <entry file="file://$PROJECT_DIR$/features/tests/tc04_edit_due_date_via_quick.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
@@ -597,7 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/tests/T02_archive_all_cards_in_list.feature">
+    <entry file="file://$PROJECT_DIR$/features/tests/tc02_archive_all_cards_in_list.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
@@ -769,22 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/tests/T04_edit_due_date_via_quick.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/tests/T02_archive_all_cards_in_list.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -811,8 +797,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/verification_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/tests/tc02_archive_all_cards_in_list.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/tests/tc04_edit_due_date_via_quick.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
           <folding />
         </state>
       </provider>
