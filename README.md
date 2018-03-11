@@ -1,4 +1,4 @@
-# steel-repo
+# Setup
 
 Ruby Version Manager
 
@@ -25,7 +25,9 @@ Initial Setup
 
 	Run the follwing in the project directory:
 		$ bundle install
-		
+
+# Test Execution
+
 Exeuting a test:
 		
 	To run a test - execute the following command in the project root directory:
