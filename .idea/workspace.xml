@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21fb62fd-da3b-4fab-9edb-ec9a1346cdc5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/tests/tc02_archive_all_cards_in_list.feature" afterPath="$PROJECT_DIR$/features/tests/tc02_archive_all_cards_in_list.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/tests/tc04_edit_due_date_via_quick.feature" afterPath="$PROJECT_DIR$/features/tests/tc04_edit_due_date_via_quick.feature" />
-    </list>
+    <list default="true" id="21fb62fd-da3b-4fab-9edb-ec9a1346cdc5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -494,12 +489,12 @@
       <updated>1520413912154</updated>
       <workItem from="1520413913975" duration="18822000" />
       <workItem from="1520500886448" duration="17545000" />
-      <workItem from="1520793371509" duration="1323000" />
+      <workItem from="1520793371509" duration="1393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37690000" />
+    <option name="totallyTimeSpent" value="37760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="1309" height="747" extended-state="6" />
